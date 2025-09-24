@@ -33,9 +33,9 @@
 	    palavra.push_back("caneta");
 	    palavra.push_back("lapiseira");
 	    palavra.push_back("tesoura");
-	    palavra.push_back("cola");
-	    palavra.push_back("apontador");
-	    
+		palavra.push_back("apontador");
+		palavra.push_back("cola");
+				 
 	  indice = rand() % palavra.size(); 
 	  std::string palavra_escolhida = palavra[indice]; 
 	  std::string palavra_oculta(palavra_escolhida.size(), '_'); 
@@ -58,3 +58,4 @@
 						  
 						   return 0; 
 					  }
+
